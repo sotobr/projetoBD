@@ -11,7 +11,7 @@ A cada mês a cobrança da mensalidade será emitida, debitada do cartão de cr�
 
 ### Diagrama ERR
 #
-<img src="./projeto-conceitual.png">
+<img src="./modeloConceitual.jpg">
 
 
 ### Esquema Relacional
