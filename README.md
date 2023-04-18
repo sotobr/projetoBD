@@ -36,27 +36,28 @@ A cada mês a cobrança da mensalidade será emitida, debitada do cartão de cr�
         
         6) PERSONAGEM (ID_Personagem, nome)
         
-        7) FEED-BACK (ID, CPF, título)
-
-            CPF → VISUALIZA(CPF)
-
-            título → VISUALIZA(título)
         
-        8) VÍDEO (título, ano, duração)
+        7) VÍDEO (título, ano, duração)
     
-        9) FILME (título, gênero)
+        8) FILME (título, gênero)
 
             título → VÍDEO (título)
 
-        10) SÉRIE (título, temporada, episódio)
+        9) SÉRIE (título, temporada, episódio)
 
             título → VÍDEO (título)
             
-        11) VISUALIZA(CPF,titulo)
+        10) VISUALIZA(CPF,titulo)
 
             CPF → USUÁRIO(CPF)
 
             titulo → VIDEO(titulo)
+            
+        11) FEED-BACK (ID, CPF, título)
+
+           CPF → VISUALIZA(CPF)
+
+           título → VISUALIZA(título)
         
         12) INTERPRETA (CPF_Ator, título, [ID_Personagem!])
 
