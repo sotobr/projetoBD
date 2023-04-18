@@ -1,5 +1,5 @@
 CREATE TABLE INTERPRETA (
-  CPF_Ator VARCHAR(11) NOT NULL,
+  CPF_Ator CHAR(11) NOT NULL,
   titulo VARCHAR(255) NOT NULL,
   ID_Personagem INT,
   PRIMARY KEY (CPF_Ator, titulo),

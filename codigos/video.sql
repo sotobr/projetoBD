@@ -1,5 +1,5 @@
 CREATE TABLE VIDEO (
   titulo VARCHAR(255) PRIMARY KEY,
   ano INT NOT NULL,
-  duracao TIME NOT NULL
+  duracao INT NOT NULL
 );
