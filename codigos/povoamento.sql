@@ -4,12 +4,16 @@ insert INTO CONTA
 VALUES ('11111');
 insert INTO CONTA
 VALUES ('22222');
+insert INTO CONTA
+VALUES ('33333');
 insert INTO USUARIO(CPF,email, cartao, cep, detalhamento, senha)
 VALUES ('00000000000', 'teste0@email.com', '0000000000000000', '00000000', 'apt 000', '00000');
 insert INTO USUARIO(CPF,email, cartao, cep, detalhamento, senha)
 VALUES ('11111111111', 'teste1@email.com', '1111111111111111', '11111111', 'apt 1111', '11111');
 insert INTO USUARIO(CPF,email, cartao, cep, detalhamento, senha)
 VALUES ('22222222222', 'teste2@email.com', '2222222222222222', '22222222', 'apt 222', '22222');
+insert INTO USUARIO(CPF,email, cartao, cep, detalhamento, senha)
+VALUES ('33333333333', 'teste3@email.com', '3333333333333333', '33333333', 'apt 333', '33333');
 insert INTO TELEFONE
 VALUES ('00000000000', '000000000');
 insert INTO TELEFONE
@@ -26,12 +30,16 @@ insert INTO TELEFONE
 VALUES ('11111111111', '111111114');
 insert INTO TELEFONE
 VALUES ('22222222222', '222222222');
+insert INTO TELEFONE
+VALUES ('33333333333', '333333333');
 insert INTO MENSALIDADE
 VALUES('00000000000', to_date('2023-01-01', 'yyyy-mm-dd'), 30.40);
 insert INTO MENSALIDADE
 VALUES('11111111111', to_date('2023-01-02', 'yyyy-mm-dd'), 30.40);
 insert INTO MENSALIDADE
 VALUES('22222222222', to_date('2023-01-01', 'yyyy-mm-dd'), 30.40);
+insert INTO MENSALIDADE
+VALUES('33333333333', to_date('2023-01-03', 'yyyy-mm-dd'), 40.40);
 insert INTO ATOR
 VALUES('10000000000', 'João da Silva', '10000000000')
 insert INTO ATOR
@@ -82,6 +90,8 @@ insert INTO VISUALIZA
 VALUES('00000000000', 'Série Teste 1');
 insert INTO VISUALIZA
 VALUES('22222222222', 'Filme Teste 2');
+insert INTO VISUALIZA
+VALUES('33333333333', 'Filme Teste 2');
 insert INTO FEEDBACK
 VALUES(1, '00000000000', 'Filme Teste 1');
 insert INTO FEEDBACK
@@ -90,3 +100,5 @@ insert INTO FEEDBACK
 VALUES(3, '11111111111', 'Filme Teste 1');
 insert INTO FEEDBACK
 VALUES(4, '22222222222', 'Filme Teste 2');
+insert INTO FEEDBACK
+VALUES(5, '33333333333', 'Filme Teste 2');
