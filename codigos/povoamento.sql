@@ -41,7 +41,7 @@ VALUES('22222222222', to_date('2023-01-01', 'yyyy-mm-dd'), 30.40);
 insert INTO MENSALIDADE
 VALUES('33333333333', to_date('2023-01-03', 'yyyy-mm-dd'), 40.40);
 insert INTO ATOR
-VALUES('10000000000', 'João da Silva', '10000000000')
+VALUES('10000000000', 'João da Silva', '10000000000');
 insert INTO ATOR
 VALUES('10000000001', 'Maria da Silva', '10000000001');
 insert INTO ATOR
