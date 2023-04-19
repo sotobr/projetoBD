@@ -6,6 +6,8 @@ insert INTO CONTA
 VALUES ('22222');
 insert INTO CONTA
 VALUES ('33333');
+insert INTO CONTA 
+VALUES ('44444');
 insert INTO USUARIO(CPF,email, cartao, cep, detalhamento, senha)
 VALUES ('00000000000', 'teste0@email.com', '0000000000000000', '00000000', 'apt 000', '00000');
 insert INTO USUARIO(CPF,email, cartao, cep, detalhamento, senha)
@@ -14,6 +16,8 @@ insert INTO USUARIO(CPF,email, cartao, cep, detalhamento, senha)
 VALUES ('22222222222', 'teste2@email.com', '2222222222222222', '22222222', 'apt 222', '22222');
 insert INTO USUARIO(CPF,email, cartao, cep, detalhamento, senha)
 VALUES ('33333333333', 'teste3@email.com', '3333333333333333', '33333333', 'apt 333', '33333');
+insert INTO USUARIO(CPF,email, cartao, cep, detalhamento, senha) 
+VALUES ('44444444444', 'teste4@email.com', '4444444444444444', '44444444', 'apt 444', '44444');
 insert INTO TELEFONE
 VALUES ('00000000000', '000000000');
 insert INTO TELEFONE
@@ -32,6 +36,8 @@ insert INTO TELEFONE
 VALUES ('22222222222', '222222222');
 insert INTO TELEFONE
 VALUES ('33333333333', '333333333');
+insert INTO TELEFONE 
+VALUES ('44444444444', '444444444');
 insert INTO MENSALIDADE
 VALUES('00000000000', to_date('2023-01-01', 'yyyy-mm-dd'), 30.40);
 insert INTO MENSALIDADE
@@ -40,6 +46,8 @@ insert INTO MENSALIDADE
 VALUES('22222222222', to_date('2023-01-01', 'yyyy-mm-dd'), 30.40);
 insert INTO MENSALIDADE
 VALUES('33333333333', to_date('2023-01-03', 'yyyy-mm-dd'), 40.40);
+insert INTO MENSALIDADE 
+VALUES('44444444444', to_date('2023-01-03', 'yyyy-mm-dd'), 41.40);
 insert INTO ATOR
 VALUES('10000000000', 'João da Silva', '10000000000');
 insert INTO ATOR
